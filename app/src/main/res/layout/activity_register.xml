@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/person_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/contact_name"
+        android:textColor="#bdbdbd"
+        android:textSize="20sp"
+        android:layout_marginBottom="10sp"
+        android:layout_marginTop="10sp"
+        android:layout_marginLeft="5sp"
+        android:layout_marginStart="5sp"/>
+
+    <EditText
+        android:id="@+id/name_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/person_name"
+        android:textSize="15sp"
+        android:ems="10"
+        android:inputType="textCapWords"
+        android:layout_marginBottom="5sp" />
+
+    <TextView
+        android:id="@+id/number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#bdbdbd"
+        android:textSize="20sp"
+        android:text="@string/phone_number"
+        android:layout_marginLeft="5sp"
+        android:layout_marginStart="5sp"
+        android:layout_marginBottom="10sp"/>
+
+    <EditText
+        android:id="@+id/numberinput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="#fff"
+        android:hint="@string/hint"
+        android:ems="10"
+        android:inputType="phone"
+        android:layout_marginBottom="5sp" />
+
+    <TextView
+        android:id="@+id/blood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/blood_type"
+        android:textColor="#bdbdbd"
+        android:textSize="20sp"
+        android:layout_marginBottom="10sp"
+        android:layout_marginLeft="5sp"
+        android:layout_marginStart="5sp"/>
+
+    <Spinner
+        android:id="@+id/blood_selector"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/blood_type"
+        android:prompt="@string/blood_select"
+        android:layout_marginBottom="10sp" />
+
+    <Button
+        android:id="@+id/register_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:textColor="#fff"
+        android:text="@string/register"
+        android:layout_gravity="center_horizontal"
+        android:padding="5sp" />
+
+    <Button
+        android:id="@+id/list_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:textColor="#fff"
+        android:text="@string/show_donors"
+        android:layout_marginTop="10sp"
+        android:layout_gravity="center_horizontal"
+        android:padding="10sp" />
+
+</LinearLayout>

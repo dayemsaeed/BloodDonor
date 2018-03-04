@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Blood Donor</string>
+    <string name="number">Number</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="hint">+123456789</string>
+    <string name="register">REGISTER</string>
+    <string name="refresh_contacts">REFRESH</string>
+    <string name="blood_type">Blood Type</string>
+    <string name="blood_select">Please Select Your Blood Type</string>
+    <string name="contact_name">Name</string>
+    <string name="contact_number">Number</string>
+    <string name="show_donors">SHOW DONORS</string>
+    <string name="person_name">Name</string>
+</resources>
